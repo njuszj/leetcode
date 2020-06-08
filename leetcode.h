@@ -39,9 +39,10 @@ ListNode* initList(vector<int> nums){
 
 void printList(ListNode* node){
     while(node != NULL){
-        cout << node->val;
+        cout << node->val << "->";
         node = node->next;
     }
+    cout << endl;
 }
 
 void printDoubleVector(vector<vector<int>> a){
